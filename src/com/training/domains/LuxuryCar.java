@@ -5,7 +5,7 @@ import com.training.ifaces.Automobile;
 public class LuxuryCar implements Automobile {
 
 	@Override
-	public String getColor() {
+    public String getColor() {
 		// TODO Auto-generated method stub
 		return "black";
 	}
