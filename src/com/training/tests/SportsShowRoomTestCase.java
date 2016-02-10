@@ -24,8 +24,26 @@ public class SportsShowRoomTestCase {
 
 	@Test
 	public void testCase1() {
-		//fail("Not yet implemented");
-		
+		auto1 = obj1.getItem(1);
+		assertTrue(auto1 instanceof PassengerCar);
+	}
+	
+	@Test
+	public void testCase2() {
+		auto1 = obj1.getItem(2);
+		assertTrue(auto1 instanceof LuxuryCar);
+	}
+	
+	@Test
+	public void testCase3() {
+		auto1 = obj1.getItem(3);
+		assertTrue(auto1 instanceof SportsCar);
+	}
+	
+	@Test
+	public void testCase4() {
+		auto1 = obj1.getItem(4);
+		assertTrue(auto1 instanceof SportsBike);
 	}
 
 }
